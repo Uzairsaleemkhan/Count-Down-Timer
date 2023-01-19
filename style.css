@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.timer{
+    background-color: black;
+    color: white;
+    height: 600px;
+    max-width: 800px;
+    margin:3rem auto 0 auto;
+    border: 1px solid black;
+}
+.timer__heading{
+    font-size: 3rem;
+    margin: 3rem auto;
+    text-align: center;
+}
+
+.timer__container{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.timer__count{
+    /* text-align: center; */
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 2rem 2rem;
+    font-size: 1.5rem;
+}
+
+.timer__para{
+    text-align: center;
+    margin: 1rem 0;
+}
